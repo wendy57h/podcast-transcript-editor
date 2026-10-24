@@ -1,0 +1,4 @@
+interface:
+  display_name: "播客搜寻与阅读交付"
+  short_description: "核对来源与说话人，整理访谈全文和合集导读，交付飞书、PDF、TXT或EPUB并验收"
+  default_prompt: "使用 $podcast-transcript-editor，按我的要求搜寻或整理播客，核对来源与访谈全文，并交付指定的飞书文档或阅读文件。"

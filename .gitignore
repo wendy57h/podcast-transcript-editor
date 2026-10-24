@@ -1,0 +1,32 @@
+# Local inputs, credentials and generated books are not repository content.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+hosts.yml
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+private/
+downloads/
+snapshots/
+output/
+dist/
+*.pdf
+*.epub
+*.mp3
+*.wav
+*.mp4
+*.srt
+
+# Promotion assets stay outside the published skill.
+docs/images/
+promotion/
