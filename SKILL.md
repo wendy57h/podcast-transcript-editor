@@ -7,7 +7,7 @@ description: "搜寻并核对播客来源，将音视频、字幕或已有文字
 
 把来源可追溯的访谈整理成可阅读的全文，交付用户指定的本地文件或飞书文档。以下样式是已经使用过的默认方案；用户本次指定的结构、颜色和详略优先。
 
-按本次任务取用参考，不必每次重跑全流程：来源发现、合集组织或离线文件交付读 [references/collection-and-export.md](references/collection-and-export.md)；音频和文字校对读 [references/transcription.md](references/transcription.md)；飞书读写与消息附件读 [references/feishu.md](references/feishu.md)。已整理的文档仅做导出时，以当前版本为准，不重新润色访谈。
+按本次任务取用参考，不必每次重跑全流程：从播客链接、节目名或嘉宾出发寻找音频及完整文字稿，先读 [references/source-discovery.md](references/source-discovery.md)；合集组织或离线文件交付读 [references/collection-and-export.md](references/collection-and-export.md)；音频转写和文字校对读 [references/transcription.md](references/transcription.md)；飞书读写与消息附件读 [references/feishu.md](references/feishu.md)。已整理的文档仅做导出时，以当前版本为准，不重新润色访谈。
 
 ## 1. 建立来源和目标清单
 
@@ -15,7 +15,8 @@ description: "搜寻并核对播客来源，将音视频、字幕或已有文字
 - 用节目官方页面、RSS 或原视频核对节目名、期号、嘉宾、主持人/联合主持人、日期、时长和原节目链接。仅凭名字或标题关键词不能认定同一期。
 - 区分完整录音、完整转写、剪辑、主题精读、摘要和宣传预告。摘要不能扩写成声称来自原节目的逐字对话。
 - 保存本地原始材料与编辑稿，使用独立任务目录。批量任务给每篇建立状态记录，至少含来源、目标、当前阶段、疑点和验证结果。
-- 完整转写不足时先寻找可访问的完整来源或用已有本地 ASR 转写；暂时拿不到的部分如实说明，不补写想象的对白。来源与音频处理见 [references/transcription.md](references/transcription.md)。
+- 按“官方单集及 shownotes 外链 → 官方网站/公众号及 RSS → 同期完整视频字幕 → 可访问的第三方全文 → 完整音频 ASR”的路径找材料，操作与检索示例见 [references/source-discovery.md](references/source-discovery.md)。拿到正文后核验首尾、各话题和中间缺段；搜索摘要、精读、试读及仅含 mediaId 的字段都不是完整文字稿。
+- 无现成全文时，从核对过的完整音频生成全程转写，再按 [references/transcription.md](references/transcription.md) 校对。暂时拿不到的部分如实说明，不补写想象的对白；检查完成前标为“完整性待核验”，不能仅凭字数或标题标成全文。
 
 ## 2. 还原时间顺序与说话人
 
